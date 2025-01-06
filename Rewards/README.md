@@ -57,24 +57,21 @@ Request Body:
 json
 Copy code
 {
-  "name": "John Doe",
-  "email": "john.doe@example.com",
-  "phone": "123-456-7890"
+  "name": "Teena Desouza",
+  "email": "teena01@example.com"
 }
 Response:
 json
-Copy code
 {
   "customer_id": 1,
   "name": "Teena Desouza",
-  "email": "teena01@example.com",
+  "email": "teena01@example.com"
 }
 2. POST /transactions
 Creates a new transaction for a customer.
 
 Request Body:
 json
-Copy code
 {
   "customer_id": 1,
   "transaction_amount": 120.00,
@@ -82,7 +79,6 @@ Copy code
 }
 Response:
 json
-Copy code
 {
   "transaction_id": 1,
   "customer_id": 1,
@@ -96,7 +92,6 @@ Request Parameters:
 customer_id: The unique ID of the customer.
 Response:
 json
-Copy code
 {
   "customer_id": 1,
   "month": "2025-01",
